@@ -67,7 +67,7 @@
     margin-bottom: 52px;
 }
 
-.contactBtn {
+.contactBtn, .contactBtn2 {
     text-decoration: none;
     background-color: rgba(0, 0, 255, 0.2);
     color: var(--color-text);
@@ -81,6 +81,11 @@
 }
 .contactBtn:hover{
     width: 8rem;
+    height: 5rem;
+    cursor: pointer;
+}
+.contactBtn2:hover {
+    width: 13rem;
     height: 5rem;
     cursor: pointer;
 }
@@ -144,14 +149,15 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
+        margin-left: 5rem;
+        margin-right: 1rem;
     }
 
     .content {
         align-items: center;
+        
     }
-    .contactBtn{
-        width: 50%;
-    }
+    
     .emailBox{
         font-size: .8rem;
     }

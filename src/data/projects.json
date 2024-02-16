@@ -30,5 +30,13 @@
     "skills": ["C#"],
     "demo": "",
     "source": "https://github.com/MatiSandoval/CarCrash_MaFos"
+  },
+  {
+    "title": "LaLeoApp",
+    "videoSrc": "",
+    "description": "Es una aplicación completa que trata sobre gestiones de la municipalidad.",
+    "skills": ["Java","NetBeans","MySQL","JDBC","Android Studio","PHP"],
+    "demo": "",
+    "source": "https://github.com/MatiSandoval/CarCrash_MaFos"
   }
 ]

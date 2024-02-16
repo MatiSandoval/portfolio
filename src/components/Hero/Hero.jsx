@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import TypingText from './TypingText';
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
+import CV from "../../assets/cv.pdf";
 
 export const Hero = () => {
   const [email, setEmail] = useState('matisandoval.97@gmail.com');
@@ -16,8 +17,8 @@ export const Hero = () => {
     }, 3000);
   };
 
-  const handleOpenEmailClient = () => {
-    window.location.href = `mailto:${email}`;
+  const handleDownloadCV = () => {
+    window.open(CV, "_blank");
   };
 
   return (
@@ -28,10 +29,12 @@ export const Hero = () => {
         <div className={styles.emailForm}>
         <span className={styles.emailBox}>{email}</span>
          <div className={styles.buttonContainer}>
-        <button className={styles.contactBtn} onClick={handleCopyToClipboard}>Copiar</button>
+        <button className={styles.contactBtn} onClick={handleCopyToClipboard} target="_blank">Copiar</button>
         {showCopiedMessage && <div className={styles.copiedMessage}>Copiado al portapapeles</div>}
       </div>
-        <button className={styles.contactBtn} onClick={handleOpenEmailClient}>Enviar correo</button>
+        <button className={styles.contactBtn2} onClick={handleDownloadCV} target="_blank">
+          Descargar CV
+        </button>
         
         </div>
         

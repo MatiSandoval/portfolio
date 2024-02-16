@@ -5,8 +5,12 @@ export const NavBar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return ( 
         <nav className={ styles.navbar}>
-            <a className={styles.title} href="/">
-                Portafolio
+            <a className={styles.title} href="#">
+                <img
+        src={getImageUrl("nav/mf.png")}
+        alt="LOGO"
+        className={styles.logo}
+      />
             </a>
             <div className={styles.menu}>
                 <img

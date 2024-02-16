@@ -8,7 +8,7 @@
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width:400px;
-  height: 600px;
+  height: 700px;
 }
 
 .video {
@@ -42,6 +42,7 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
+  text-decoration: none;
 }
 
 .links {
@@ -49,9 +50,7 @@
   margin-top: 26px;
   display: flex;
   gap: 10px;
-  /* Espacio entre los botones, ajusta según tus necesidades */
   justify-content: center;
-  /* Ajusta según tus necesidades */
 }
 
 .link {
@@ -63,5 +62,7 @@
   background: var(--color-primary);
   padding: 1px 22px;
   white-space: nowrap;
-  /* Evita que el texto se divida en varias líneas */
+}
+.link:hover{
+  color:#04152d;
 }

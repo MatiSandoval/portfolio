@@ -27,11 +27,11 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/frontIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/utn.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>ING. EN SISTEMAS DE INFORMACIÓN - UTN</h3>
               <p>
-                Estudiante avanzado de la carrera con 24 materias aprobadas. Además formé parte del grupo de investigación CINAPTIC para un proyecto sobre metodologías ágiles.
+                Estudiante avanzado de la carrera, cursando materias de 4to año. Además formé parte del grupo de investigación CINAPTIC para un proyecto sobre metodologías ágiles en 2023.
               </p>
             </div>
           </li>
@@ -40,7 +40,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>INFORMATORIO - CHACO</h3>
               <p>
-                Realicé las 3 etapas del curso, comenzando con programación web, django y python, y luego culminando con la especialización de React.js.
+                Durante el año 2023 realicé el curso completo, comenzando con programación web, django-python, y luego culminando con la especialización de React.js.
               </p>
             </div>
           </li>

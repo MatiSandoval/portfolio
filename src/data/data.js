@@ -6,12 +6,9 @@ export const data = [
     id: 2, imgUrl: "assets/certificates/frontend-argentinaprograma.jpg"
   },
   {
-    id: 3, imgUrl: "assets/certificates/cert1.jpg"
+    id: 3, imgUrl: "assets/certificates/info2.jpg"
   },
   {
-    id: 4, imgUrl: "assets/certificates/cert1.jpg"
-  },
-  {
-    id: 5, imgUrl: "assets/certificates/cert1.jpg"
+    id: 4, imgUrl: "assets/certificates/unity.jpg"
   }
 ];
