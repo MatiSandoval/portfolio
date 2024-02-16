@@ -1,0 +1,34 @@
+[
+  {
+    "title": "AIRE",
+    "videoSrc": "../../assets/projects/informatorio.mp4",
+    "description": "Es un proyecto fullstack para el trabajo final del curso Informatorio.",
+    "skills": ["Python", "Django", "HTML","CSS","SQL Server","JavaScript","Bootstrap"],
+    "demo": "http://matisandoval.pythonanywhere.com/",
+    "source": "https://github.com/MatiSandoval/Info-ProyectoFinal"
+  },
+  {
+    "title": "Pelis+",
+    "videoSrc": "../../assets/projects/",
+    "description": "Es una prueba técnica para consumir una API y listar películas.",
+    "skills": ["React", "HTML", "JavaScript","CSS","Bootstrap"],
+    "demo": "https://stackblitz-starters-t5uzlk.stackblitz.io",
+    "source": "https://github.com/MatiSandoval/Pelis"
+  },
+  {
+    "title": "CVCreator",
+    "videoSrc": "../../assets/projects/",
+    "description": "Es una página web donde se consume una API y se genera distintos CV personalizados.",
+    "skills": ["HTML","CSS","JavaScript","Bootstrap"],
+    "demo": "https://cv-api-generator-ofnx3ooho-matisandoval.vercel.app/",
+    "source": "https://github.com/MatiSandoval/CV-APIGenerator"
+  },
+  {
+    "title": "CarCrash",
+    "videoSrc": "../../assets/projects/CarCrash.mp4",
+    "description": "Es un videojuego desarrollado en Unity para el proyecto final del curso Aprendizaje Virtual.",
+    "skills": ["C#"],
+    "demo": "",
+    "source": "https://github.com/MatiSandoval/CarCrash_MaFos"
+  }
+]
