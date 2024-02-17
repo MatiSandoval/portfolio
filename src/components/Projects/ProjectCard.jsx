@@ -6,10 +6,14 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <video className={styles.video} controls>
-        <source src={videoSrc} type="video/mp4" />
-        Tu navegador no soporta el tag de video.
-      </video>
+      
+        <iframe className={styles.video}
+          src={videoSrc}
+          title={title}
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
