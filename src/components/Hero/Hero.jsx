@@ -26,17 +26,14 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hola!</h1>
         <TypingText />
-        <div className={styles.emailForm}>
-        <span className={styles.emailBox}>{email}</span>
-         <div className={styles.buttonContainer}>
-        <button className={styles.contactBtn} onClick={handleCopyToClipboard} target="_blank">Copiar</button>
-        {showCopiedMessage && <div className={styles.copiedMessage}>Mail copiado al portapapeles</div>}
-      </div>
-        <button className={styles.contactBtn2} onClick={handleDownloadCV} target="_blank">
-          Descargar CV
-        </button>
-        
-        </div>
+        <div className={`${styles.emailForm} ${styles.responsiveEmailForm}`}>
+  <span className={styles.emailBox}>{email}</span>
+  <div className={styles.buttonContainer}>
+    <button className={styles.contactBtn} onClick={handleCopyToClipboard}>Copiar</button>
+    {showCopiedMessage && <div className={styles.copiedMessage}>Mail copiado al portapapeles</div>}
+    <button className={styles.contactBtn2} onClick={handleDownloadCV}>Descargar CV</button>
+  </div>
+</div>
         
       </div>
       <img

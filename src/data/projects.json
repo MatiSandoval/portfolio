@@ -7,14 +7,7 @@
     "demo": "http://matisandoval.pythonanywhere.com/",
     "source": "https://github.com/MatiSandoval/Info-ProyectoFinal"
   },
-  {
-    "title": "LaLeoApp",
-    "videoSrc": "https://www.youtube.com/embed/o-hMjOobygw?si=A66jQ3OQbWCGi8VN&amp;start=5",
-    "description": "Es una aplicación completa que trata sobre gestiones de la municipalidad.",
-    "skills": ["Java","NetBeans","MySQL","JDBC","Android Studio","PHP"],
-    "demo": "",
-    "source": "https://github.com/MatiSandoval/CarCrash_MaFos"
-  },
+  
   {
     "title": "CVCreator",
     "videoSrc": "https://www.youtube.com/embed/Qx3LcxHzRoI?si=pjnVG-VAmopHpcIE",
@@ -39,4 +32,5 @@
     "demo": "https://stackblitz-starters-t5uzlk.stackblitz.io",
     "source": "https://github.com/MatiSandoval/Pelis"
   }
+  
 ]
