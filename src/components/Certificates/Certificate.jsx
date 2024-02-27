@@ -6,23 +6,27 @@ import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './Certificate.module.css';
-
+import { getImageUrl } from "../../utils";
 
 
 export const Certificate = () => {
   const [swiper, setSwiper] = useState(null);
+  const uno = getImageUrl("certificates/cert1.png");
+  const dos = getImageUrl("certificates/frontend-argentinaprograma.png");
+  const tres = getImageUrl("certificates/info2.png");
+  const cuatro = getImageUrl("certificates/unity.png");
   const data = [
   {
-    id: 1, imgUrl: "assets/certificates/cert1.png"
+    id: 1, imgUrl: uno
   },
   {
-    id: 2, imgUrl: "assets/certificates/frontend-argentinaprograma.png"
+    id: 2, imgUrl: dos
   },
   {
-    id: 3, imgUrl: "assets/certificates/info2.png"
+    id: 3, imgUrl: tres
   },
   {
-    id: 4, imgUrl: "assets/certificates/unity.png"
+    id: 4, imgUrl: cuatro
   }
   ]
   return (
