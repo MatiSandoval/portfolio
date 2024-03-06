@@ -1,4 +1,15 @@
-[
+[ {
+    "title": "Java",
+    "imageSrc": "skills/java.png"
+  }, 
+  {
+    "title": "Genexus",
+    "imageSrc": "skills/gx.png"
+  },
+  {
+    "title": "APIs",
+    "imageSrc": "skills/api.png"
+  },
   {
     "title": "HTML",
     "imageSrc": "skills/html.png"
@@ -26,9 +37,5 @@
   {
     "title": "MySQL",
     "imageSrc": "skills/mysql.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
   }
 ]

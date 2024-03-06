@@ -1,11 +1,10 @@
-[
-  {
-    "role": "Software Developer",
-    "organisation": "Munic. La Leonesa",
-    "startDate": "Mayo (2020)",
-    "endDate": "Junio (2022)",
-    "experiences": ["Desarrollo e implementación de aplicaciones desktop y Android para administración municipal y guardia sanitaria. (JAVA)", "Control y testeos de Software.","Administración de Base de Datos y Server Hosting."],
-    "imageSrc": "history/laleonesa.png"
+[{
+    "role": "Back-End Developer",
+    "organisation": "Banco de Corrientes S.A.",
+    "startDate": "Marzo (2024)",
+    "endDate": "Actualidad",
+    "experiences": ["Desarrollo de software en área de servicios externos con Genexus y Java","Creación y manejo de APIs","Manejo y utilización de Base de Datos"],
+    "imageSrc": "history/banco.png"
   },
   {
     "role": "Rep. Atención al Cliente",
@@ -14,5 +13,13 @@
     "endDate": "Febrero (2024)",
     "experiences": ["Tareas de retención móvil y hogar."],
     "imageSrc": "history/konecta.png"
+  },
+  {
+    "role": "Software Developer",
+    "organisation": "Munic. La Leonesa",
+    "startDate": "Mayo (2020)",
+    "endDate": "Junio (2022)",
+    "experiences": ["Desarrollo e implementación de aplicaciones desktop y Android para administración municipal y guardia sanitaria con Java.", "Control y testeos de Software.","Administración de Base de Datos y Server Hosting."],
+    "imageSrc": "history/laleonesa.png"
   }
 ]
